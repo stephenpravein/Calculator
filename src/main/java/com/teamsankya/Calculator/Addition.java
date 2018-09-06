@@ -27,8 +27,7 @@ public class Addition {
 	}
 	public static int add(int a, int b) {
 		LOGGER.info("adding two integers "+a+" "+b);
-		LOGGER.error("adding two integers "+a+" "+b);
-		LOGGER.warn("adding two integers "+a+" "+b);
+		System.out.println("hello ");
 		return a+b;
 	}
 	
